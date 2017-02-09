@@ -1,0 +1,3 @@
+{"ts":1486420959419,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1486435191350,"patch":[[{"diffs":[[1,"[local]\n[localhost]"]],"start1":0,"start2":0,"length1":0,"length2":19}]],"length":19,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1486440555681,"patch":[[{"diffs":[[0,"[local]\n"],[-1,"["],[0,"localhos"]],"start1":0,"start2":0,"length1":17,"length2":16},{"diffs":[[0,"ocalhost"],[-1,"]"]],"start1":9,"start2":9,"length1":9,"length2":8}]],"length":17,"saved":false}

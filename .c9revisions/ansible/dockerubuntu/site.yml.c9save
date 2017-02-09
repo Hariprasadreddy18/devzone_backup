@@ -1,0 +1,2 @@
+{"ts":1486514450402,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1486514947791,"patch":[[{"diffs":[[1,"---\n\n- name: create instance\n  hosts: localhost\n  \n  \n  roles:\n    - ec2instance\n    \n\n- hosts: all\n  user: ubuntu\n  gather_facts: false\n  become: yes\n  become_method: sudo\n  hosts: hari\n  \n  roles:\n    - docker"]],"start1":0,"start2":0,"length1":0,"length2":211}]],"length":211,"saved":false}

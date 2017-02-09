@@ -1,0 +1,5 @@
+{"ts":1485749779335,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1485749820121,"patch":[[{"diffs":[[1,"[webservers]\n35.167.216.170\n"]],"start1":0,"start2":0,"length1":0,"length2":28}]],"length":28,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1485901213716,"patch":[[{"diffs":[[1,"[tomcat-servers]\n35.165.49.172\n\n"],[0,"[webserv"]],"start1":0,"start2":0,"length1":8,"length2":40}]],"length":60,"saved":false}
+{"ts":1485901423105,"patch":[[{"diffs":[[0,"cat-servers]"],[1,"\r"],[0,"\n35.165.49.1"]],"start1":4,"start2":4,"length1":24,"length2":25},{"diffs":[[0,".172"],[-1,"\n\n[webservers]\n35.167.216.170\n"],[1,"\r\n\r\n[appservers]\r\n127.0.0.1"]],"start1":27,"start2":27,"length1":34,"length2":31}]],"length":58,"saved":false}
+{"ts":1485901988728,"patch":[[{"diffs":[[-1,"[tomcat-servers]\r\n35.165.49.172\r\n\r\n[appservers]\r\n127.0.0.1"],[1,"35.165.49.172\r\n"]],"start1":0,"start2":0,"length1":58,"length2":15}]],"length":15,"saved":false}

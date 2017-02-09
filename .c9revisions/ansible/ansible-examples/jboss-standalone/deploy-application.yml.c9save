@@ -1,0 +1,1 @@
+{"ts":1485753726824,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"---\n# This playbook deploys two simple applications to JBoss server. \n\n- hosts: all\n\n  roles:\n# Optionally, (re)deploy JBoss here\t  \n#    - jboss-standalone\n    - java-app\n"]],"start1":0,"start2":0,"length1":0,"length2":172}]],"length":172}

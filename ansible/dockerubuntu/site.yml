@@ -1,0 +1,19 @@
+---
+
+- name: create instance
+  hosts: localhost
+  
+  
+  roles:
+    - ec2instance
+    
+
+- hosts: all
+  user: ubuntu
+  gather_facts: false
+  become: yes
+  become_method: sudo
+  hosts: hari
+  
+  roles:
+    - docker

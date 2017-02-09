@@ -1,0 +1,2 @@
+{"ts":1485654339498,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1485656379941,"patch":[[{"diffs":[[1,"---\r\n- hosts: all\r\n  sudo: yes\r\n  tasks:\r\n  - name: Install node js latest version\r\n    package:\r\n        name: nodejs\r\n        enablerepo: epel\r\n        state: latest\r\n  - name: Check the node version\r\n    raw: node -v\r\n    register: output\r\n  - debug: var=output.stdout"]],"start1":0,"start2":0,"length1":0,"length2":271}]],"length":271,"saved":false}

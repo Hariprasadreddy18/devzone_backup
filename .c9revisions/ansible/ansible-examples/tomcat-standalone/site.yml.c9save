@@ -1,0 +1,2 @@
+{"ts":1485788556808,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"---\n# This playbook deploys a simple standalone Tomcat 7 server.\n\n- hosts: tomcat-servers\n  remote_user: root\n  become: yes\n  become_method: sudo\n\n  roles:\n    - selinux\n    - tomcat\n"]],"start1":0,"start2":0,"length1":0,"length2":183}]],"length":183}
+{"contributors":[],"silentsave":false,"ts":1485897744764,"patch":[[{"diffs":[[0,"ts: "],[-1,"tomcat-servers"],[1,"all"],[0,"\n  r"]],"start1":71,"start2":71,"length1":22,"length2":11}]],"length":172,"saved":false}

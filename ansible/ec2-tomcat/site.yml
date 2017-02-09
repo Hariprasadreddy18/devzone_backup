@@ -1,0 +1,53 @@
+---
+- name: Create ec2 instance for tomcat
+  hosts: localhost
+  become: sudo
+
+  roles:
+    - ec2
+    - ec2db
+
+
+
+- name: install tomcat
+  hosts: hari
+  remote_user: ec2-user
+  become: yes
+  become_method: sudo
+  become_user: root
+  vars:
+        http_port: 8080
+        https_port: 8443
+        admin_username: admin
+        admin_password: adminsecret
+  
+  
+  roles:
+     - selinux
+     - tomcat
+
+- name: Create ec2 instance for db server
+  hosts: localhost
+  become: sudo
+
+
+
+- name: install db_server
+  hosts: hari1
+  remote_user: ec2-user
+  become: yes
+  become_method: sudo 
+  become_user: root
+  vars:
+    mysqlservice: mysqld
+    mysql_port: 3306
+    dbuser: foouser
+    dbname: foodb
+    upassword: abc
+    httpd_port: 80
+    ntpserver: 192.168.1.2
+    repository: https://github.com/bennojoy/mywebapp.git
+
+  roles:
+    - common
+    - db

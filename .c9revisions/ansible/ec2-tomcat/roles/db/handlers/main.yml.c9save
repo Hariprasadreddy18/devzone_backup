@@ -1,0 +1,1 @@
+{"ts":1486419531417,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"---\n# Handler to handle DB tier notifications\n\n- name: restart mariadb\n  service: name=mariadb state=restarted\n"]],"start1":0,"start2":0,"length1":0,"length2":111}]],"length":111}

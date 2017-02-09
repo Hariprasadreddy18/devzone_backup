@@ -1,0 +1,1 @@
+{"ts":1485824485302,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"---\n- name: restart_tomcat\n  service: name=tomcat7 state=restarted"]],"start1":0,"start2":0,"length1":0,"length2":66}]],"length":66}

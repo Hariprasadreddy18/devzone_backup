@@ -1,0 +1,1 @@
+{"ts":1486419401139,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"---\n# Handler to handle common notifications. Handlers are called by other plays.\n# See http://docs.ansible.com/playbooks_intro.html for more information about handlers.\n\n- name: restart ntp\n  service: name=ntpd state=restarted\n"]],"start1":0,"start2":0,"length1":0,"length2":228}]],"length":228}

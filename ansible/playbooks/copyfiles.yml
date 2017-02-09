@@ -1,0 +1,8 @@
+---
+- hosts: all
+  remote_user: ec2-user
+  vars:
+   filetype: "cfg"
+  tasks:
+  - name: copy the d cfg file
+    template: src=../files/aws.json dest=/tmp/aws.json

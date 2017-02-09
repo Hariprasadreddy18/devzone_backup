@@ -1,0 +1,1 @@
+{"ts":1485824489779,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"---\n# Tomcat system user\ntomcat_user: tomcat7\n\n# JAVA_OPTS for Tomcat: memory\ntomcat_xmx: 512m\n\n# JAVA_OPTS for Tomcat: everything else\ntomcat_extra_opts: \"\"\n"]],"start1":0,"start2":0,"length1":0,"length2":158}]],"length":158}

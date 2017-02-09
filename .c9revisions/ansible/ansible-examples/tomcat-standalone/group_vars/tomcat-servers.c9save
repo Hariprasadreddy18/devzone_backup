@@ -1,0 +1,1 @@
+{"ts":1486445337393,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"# Here are variables related to the Tomcat installation\n\nhttp_port: 8080\nhttps_port: 8443\n\n# This will configure a default manager-gui user:\n\nadmin_username: admin\nadmin_password: adminsecret\n"]],"start1":0,"start2":0,"length1":0,"length2":192}]],"length":192}

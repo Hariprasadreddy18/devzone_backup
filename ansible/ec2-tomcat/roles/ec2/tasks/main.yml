@@ -1,0 +1,34 @@
+- name: ec2-launch instance for web-server
+  ec2:
+    region: us-west-2
+    key_name: AnsibleKey1
+    instance_type: t2.micro
+    image: ami-f173cc91
+    wait: yes
+    group: Ansible1
+    count: 1
+    assign_public_ip: yes
+    vpc_subnet_id: subnet-51a27936
+    assign_public_ip: yes
+    instance_tags:
+        Name: amazonlinux
+        Owner: hari
+  register: ec2   
+  
+
+  
+- name: Wait for SSH to come up
+  wait_for:
+           host: '{{ item.public_ip }}'
+           port: 22
+           delay: 60
+           timeout: 320
+           state: started
+  with_items: '{{ ec2.instances }}'
+            
+
+- name: Add instances to host group
+  add_host: 
+            hostname: '{{ item.public_ip }}' 
+            groupname: hari
+  with_items: '{{ ec2.instances }}'
